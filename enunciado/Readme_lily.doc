@@ -1,4 +1,4 @@
-PUNTO 1:
+------PUNTO 1:-------
 
 Vale en este punto pensaba hacer que cada imagen que pasaba por el cursor lo podia hacer con los eventos de js 
 que son:
@@ -23,8 +23,7 @@ const titulo = event.target.alt; ---> cuando ya haya verficado que el objeto que
 de alt, para yo obtener lo que sería el titulo de la parada.
 
 
-
-PUNTO 2:
+-------PUNTO 2-------
 
 Para hacer este punto no me fué tan dificil, PERO..... lo divido en tres partes:
 
@@ -42,9 +41,6 @@ todos los elementos de la colección en este caso imgRojo, para verificar todo l
 Busque por internet, y todavía no tengo muy claro [toLowerCase], lo que te puse en el script, porque lo que busque fué que es una
 comparación no sea sensible a mayúsculas y minúsculas. Pero que tiene que ver con el codigo? o es que es para que la etiqueta que
 yo escriba no la confunda "el" si tiene minúsculas o mayuscula y la lea por igual??....
-
-
-
 
 
 

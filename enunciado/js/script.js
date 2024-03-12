@@ -13,7 +13,6 @@ tabla.addEventListener("mouseover", (event) => {
     }
 });
 
-
 rojo.addEventListener("click", () => {
     const imgRojo = document.querySelectorAll('.roja');
     imgRojo.forEach(img =>{
