@@ -1,0 +1,43 @@
+PUNTO 1:
+
+Vale en este punto pensaba hacer que cada imagen que pasaba por el cursor lo podia hacer con los eventos de js 
+que son:
+
+mouseover - Mover el raton por encima de un elemento
+mouseout - Mover el raton fuera de un elemento
+
+
+
+
+
+
+
+
+
+
+
+
+PUNTO 2:
+
+Para hacer este punto no me fué tan dificil, PERO..... lo divido en tres partes:
+
+1-  " const rojo = document.getElementsByTagName("button")[0]; ".
+En el momento de seleccionar el botón le asigno la variable x para asignarle o agregarle un evento. 
+
+2- rojo.addEventListener("click", () => {}
+Aqui lo que estoy haciendo es utilizar el método de addEventListener en el objeto rojo y que se ejecute al momento de hacerle "click". 
+
+3- Aqui si se me fué más complicado, te explico un poco:
+dentro del método addEventListener lo que hice fué asignar una variable para la clase que le correspondia a cada imagen
+en este caso, cada imagen tenia una clase, (rojo,verde,azul). Luego he utilizado un forEach, lo utilizé para recorrer
+todos los elementos de la colección en este caso imgRojo, para verificar todo las eiquetas. 
+
+Busque por internet, y todavía no tengo muy claro [toLowerCase], lo que te puse en el script, porque lo que busque fué que es una
+comparación no sea sensible a mayúsculas y minúsculas. Pero que tiene que ver con el codigo? o es que es para que la etiqueta que
+yo escriba no la confunda "el" si tiene minúsculas o mayuscula y la lea por igual??....
+
+
+
+
+
+
