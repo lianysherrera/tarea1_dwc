@@ -6,14 +6,21 @@ que son:
 mouseover - Mover el raton por encima de un elemento
 mouseout - Mover el raton fuera de un elemento
 
+Pero no, porque fuí tonta y me comí mucho la cabeza en como comenzar este ejercicio. 
 
+despues de 60 minutos escribiendo, buscando y tratando de que me saliera "algo"
+intenté hacerlo con el addEventListener metiendole el "mouseover". que es el mismo punto anterior. (QUE LO HICE PRIMERO)
+pero claro no caí en cuenta enseguida, si no 1 hora después......
 
+ahora lo que hice:
 
+const tabla = document.getElementsByTagName("table")[0];  -> con esto accedi a la tabla que tenia las imagenes, porque claro 
+no podía tocar el html.
 
+Despues agregué la funcion mouseover en el metodo de addEventListener.
 
-
-
-
+const titulo = event.target.alt; ---> cuando ya haya verficado que el objeto que le estoy pidiendo es una imagen, pues coge el valor
+de alt, para yo obtener lo que sería el titulo de la parada.
 
 
 

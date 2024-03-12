@@ -4,6 +4,16 @@ const azul = document.getElementsByTagName("button")[2];
 const borrar = document.getElementsByTagName("button")[3];
 
 
+const tabla = document.getElementsByTagName("table")[0];
+
+tabla.addEventListener("mouseover", (event) => {
+    if (event.target.tagName === 'IMG') {
+        const titulo = event.target.alt;
+        document.getElementsByTagName("p")[0].textContent =  "esta es la parada de " +  titulo;
+    }
+});
+
+
 rojo.addEventListener("click", () => {
     const imgRojo = document.querySelectorAll('.roja');
     imgRojo.forEach(img =>{
